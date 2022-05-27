@@ -4,7 +4,7 @@
     <el-progress type="circle" :percentage="25" />
     <el-progress type="circle" :percentage="100" status="success" />
     <el-progress type="circle" :percentage="70" status="warning" />
-    <el-progress type="circle" :percentage="50" status="exception" />
+    <el-progress type="circle" :percentage="50" status="exception" width="200" />
   </div>
 </template>
 <style scoped>
